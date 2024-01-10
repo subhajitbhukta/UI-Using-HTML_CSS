@@ -1,0 +1,19 @@
+p{
+    background-color: aqua ;
+    /* !important */
+    /* (if we use !important keyword that means it was first priority) */
+    /* firts priority inline css>then internal css==external css(squence matter) */
+}
+#idtag{
+    background-color: black;
+    color: aliceblue;
+}
+.para{
+    color: brown;
+}
+section,p{
+    width: 500px;
+}
+p,para{
+    text-align: center;
+}

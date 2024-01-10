@@ -1,0 +1,20 @@
+p{
+    font-style: italic;
+    font-size: 23px;
+    /* add link google font */
+    font-family: Oswald;
+    font-weight: 38px;
+    line-height: 42px;
+}
+#firstpara{
+    background-color: yellow;
+    color: rgb(237, 59, 24);
+}
+#secondpara{
+    background-color: rgb(56, 238, 65);
+    color: aliceblue;
+}
+#thirtpara{
+    background-color: aqua;
+    color: brown;
+}

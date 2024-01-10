@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #656464;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    gap: 15px;
+}
+
+.item1{
+    
+}
+
+.item{
+    margin: 5px 20px 5px 20px;
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}

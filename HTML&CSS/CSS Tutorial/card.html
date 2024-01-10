@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: blanchedalmond
+      }
+      @media (max-width:550px) {
+        body{
+          background-color: rgb(20, 21, 21);
+        }
+        p{
+        color: wheat;
+      }
+      #content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+      }
+      }
+      nav {
+        background-color: black;
+        position: sticky;
+        top: 0;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+      }
+      li {
+        text-decoration: none;
+        display: inline-block;
+        margin: 9px;
+      }
+      #content{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position:relative;
+        /* animation-name: fading; */
+        /* animation-iteration-count:infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+        animation-delay: 2s;
+        animation-direction:alternate; */
+        /* animation-play-state: paused; */
+        /* animation-fill-mode:backwards; */
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; (short hand notation) */
+      }
+      /* @keyframes fading {
+        from{
+          top: 0;
+          left: 0;
+        }
+        to{
+          top: 0;
+          left: 1200px;
+        }
+      } */
+      
+      #one:hover{
+        width: 400px;
+      }
+
+      #right{
+        float: right;
+        padding: 9px;
+        margin: 5px;
+      }
+      #left{
+        float: left;
+        padding: 9px;
+        margin: 5px;
+      }
+      #one {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: aqua;
+        overflow: auto;
+        box-shadow:-9px 7px 6px  rgba(10, 10, 10, 0.683);
+        /* transition-property:  width; */
+        transition: all 5s;
+        
+      }
+      #two {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: burlywood;
+        box-shadow: inset 7px 6px  rgba(102, 96, 96, 0.781);
+      }
+      #three {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: cadetblue;
+        box-shadow:-9px 7px 6px  rgba(10, 10, 10, 0.683);
+      }
+      #four {
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgba(170, 211, 98, 0.557);
+        box-shadow:-9px 7px 6px  rgba(10, 10, 10, 0.683);
+      }
+      #space{
+        margin: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Mailing us</li>
+        </ul>
+      </nav>
+
+      <div id="content">
+        <div id="one">
+          <h3>Welcome lecture 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            officia dolor corporis eum facere repudiandae? Maxime, quidem! Ipsa,
+            laborum distinctio, optio aperiam animi nobis nisi dicta molestiae
+            culpa a expedita! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Adipisci quis quisquam, repellendus soluta dolor voluptatibus
+            in minima consectetur autem amet!
+          </p>
+        </div>
+        <div id="two">
+          <h3>Welcome lecture 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            officia dolor corporis eum facere repudiandae? Maxime, quidem! Ipsa,
+            laborum distinctio, optio aperiam animi nobis nisi dicta molestiae
+            culpa a expedita!
+          </p>
+        </div>
+        <div id="three">
+          <h3>Welcome lecture 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            officia dolor corporis eum facere repudiandae? Maxime, quidem! Ipsa,
+            laborum distinctio, optio aperiam animi nobis nisi dicta molestiae
+            culpa a expedita!
+          </p>
+        </div>
+        <div id="four">
+          <h3>Welcome lecture 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
+            officia dolor corporis eum facere repudiandae? Maxime, quidem! Ipsa,
+            laborum distinctio, optio aperiam animi nobis nisi dicta molestiae
+            culpa a expedita!
+          </p>
+        </div>
+      </div>
+        <p id="space">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          ipsa quia quaerat, voluptate odio sequi eveniet illo cumque nihil
+          fugiat facere. Facilis recusandae eaque magni exercitationem, 
+          <img id="right" src="2.jpg" alt="" height="200px" width="200px">
+          enim est
+          ad distinctio vero rerum eius culpa reprehenderit, non dolor sequi
+          dolorum expedita deleniti illo architecto? Voluptatibus a quae vel
+          possimus nemo optio!0 Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Excepturi, fuga minima. Rem reiciendis consequatur
+          repellendus blanditiis numquam! Ratione corporis harum impedit
+          voluptatum soluta debitis tenetur perspiciatis iure rem exercitationem
+          voluptatem quibusdam, facilis fugit atque tempore quas, expedita
+          architecto eaque porro facere quisquam amet itaque totam. Animi ipsam
+          nam sunt impedit labore eius ea hic vel, aperiam in est iste
+          temporibus. Perferendis laboriosam magni labore facilis nisi voluptate
+          vel, quasi officia? Eaque cum ad quam. Suscipit dolore, tenetur odit
+          dolores saepe rem in perferendis, itaque excepturi doloribus ullam
+          vitae quos sit delectus voluptas aperiam nihil adipisci labore totam
+          voluptatem expedita iste. Beatae magni ad soluta quaerat ratione culpa
+          voluptates itaque harum placeat. Tempora, accusamus. Quis voluptate
+          quibusdam veniam omnis voluptatem laudantium sapiente modi nesciunt
+          amet, magnam officiis, dolore esse ipsam ipsa odio ratione? Excepturi
+          delectus distinctio placeat quia eum vel molestiae dolor ea dolore
+          quae, ratione iste possimus amet harum nisi, id velit nulla
+          voluptatibus tempore porro, dolorum voluptatum obcaecati sunt
+          perspiciatis! Cupiditate neque, ea tempore molestias iusto voluptate
+          ducimus quo odio soluta illo corrupti explicabo, minus ipsa laborum
+          dolores rerum, numquam ab quia deserunt temporibus corporis id?
+          Tenetur deserunt quidem dolore exercitationem doloribus animi est
+          cupiditate libero quae? Velit aliquid magni deserunt nostrum provident
+          odit corrupti voluptatum vitae officiis perspiciatis adipisci expedita
+          repudiandae voluptatem nulla nam in, repellendus, numquam similique
+          autem eos incidunt dicta quidem. Iure rem at eaque exercitationem,
+          <img id="left" src="1.jpg" alt="" height="200px" width="200px">
+          fuga cumque facere. Impedit consectetur numquam maxime cum ipsam!
+          Animi vero ullam numquam laboriosam dolore harum ex, reiciendis
+          explicabo laudantium neque a non sapiente minima eius praesentium
+          quisquam, sint inventore nesciunt. Eaque, ipsa in molestias, veritatis
+          ex consectetur repudiandae quidem blanditiis ut, corporis iusto. Qui
+          obcaecati esse similique atque eveniet quas consequatur nesciunt porro
+          autem enim, illum vero non perspiciatis quae architecto, molestiae
+          repellat corporis nihil cupiditate facere numquam cum. Molestiae,
+          tempora quod assumenda voluptatum officia amet recusandae autem
+          numquam architecto enim eveniet omnis cupiditate. Beatae, itaque
+          consequatur tenetur alias necessitatibus sit atque commodi? Fugit
+          totam doloribus ad quas esse odit quo sint harum dolorem rerum tenetur
+          quasi animi aut minus repellendus sequi ab asperiores delectus, fuga
+          ipsum eaque natus amet eveniet aliquid? Provident eaque praesentium,
+          laborum illum est explicabo quas, alias illo minima quia odio adipisci
+          quos harum facilis. Veritatis ipsum aliquam, deleniti nam cumque
+          temporibus inventore ad corrupti expedita molestiae officiis
+          recusandae in numquam officia, solut
+          possimus suscipit illum
+          repellendus cupiditate error quis vero? Magni architecto porro
+          corporis quis ipsum culpa, a aut qui illum sed nemo, tenetur quo? Nemo
+          in odit magni sed sapiente rerum placeat distinctio, molestiae
+          cupiditate mollitia repudiandae laudantium quod possimus doloribus
+          nihil quae. Dolore, consectetur error tempora laboriosam corrupti,
+          nesciunt eaque alias facere esse inventore odio nulla. At libero iste
+          illum odit minus blanditiis aspernatur incidunt quaerat aperiam
+          consectetur inventore voluptatem ipsa, ab mollitia repudiandae atque
+          voluptatibus voluptas enim corrupti earum possimus nihil! Eligendi
+          amet ducimus repellendus perspiciatis molestiae vitae modi quaerat
+          doloribus. Perspiciatis accusantium ex modi voluptate sit ipsa tenetur
+          assumenda vel magnam iusto, recusandae voluptatum illum optio, ipsum
+          voluptatem dolore necessitatibus.
+        </p>
+    </header>
+  </body>
+</html>
